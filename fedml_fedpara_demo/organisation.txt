@@ -1,0 +1,16 @@
+fedml_fedpara_demo/
+├── fedpara/
+│   ├── __init__.py
+│   ├── compress.py         # 💡 Your FedPara logic (A, B, C + Hadamard)
+│
+├── model/
+│   ├── __init__.py
+│   ├── simple_cnn.py       # ✅ Your SimpleCNN model definition
+│
+├── data/
+│   ├── __init__.py
+│   ├── mnist_loader.py     # 📦 Your data loading utility
+│
+├── train.py                # 🔁 Main script: train, compress, update, evaluate
+├── requirements.txt        # Optional (torch, torchvision, matplotlib)
+└── README.md               # (Optional) Brief explanation
